@@ -33,5 +33,5 @@ io.on('connection', (socket) =>{
     })
 })
 
-const port = 8000
-server.listen(port)
+
+server.listen(process.env.PORT || 8000)
